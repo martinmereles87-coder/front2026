@@ -1,0 +1,158 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tiny5&display=swap');
+</style>
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Press Start 2P', monospace; /* <-- Tipografía estilo Undertale/Deltarune */
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+}
+
+
+header {
+     border-bottom: 10px solid #ffffff;
+}
+
+.titulo-principal {
+    color: #D43939;
+    font-size: 25px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+h3{
+  color: #F77E63;
+}
+h2 {
+  color: #FFFF8C;
+}
+.bloque1 {
+  background-color: #000;
+    background-image: url("./IMAGE/brick.jpg");
+    background-repeat: repeat;
+    display: flex;               /* Activa flexbox */
+    justify-content: center;     /* Centra horizontalmente */
+    align-items: center;         /* Centra verticalmente */
+    min-height: 100vh;           /* Ocupa toda la altura de la pantalla */
+}
+.cuadradotexto1{
+display: flex;
+border: 5px solid #BB4CF5;
+border-radius: 8px;
+  width: 500px;               /* Ajusta el ancho de tu caja */
+  background-color: rgba(163,39,245,0.1); /* Ejemplo de fondo */
+  padding: 20px;
+  text-align: center;
+  flex-direction: column;
+}
+.genocida{
+  color: #D43939
+}
+.genocidaproG{
+  color: #FF3000;
+  font-size: 35px;
+}
+.genocidapro{
+  color: #FF3000;
+}
+.nospoiler{
+  display: flex;
+  background-color: #000;
+    background-image: url("./IMAGE/spoiler.png");
+    background-repeat: no-repeat;
+  background-size: cover;   /* ajusta para cubrir toda la pantalla */
+  background-position: center;
+    align-content: center;
+
+}
+
+.bloque2 {
+  background-color: #000;
+    background-image: url("./IMAGE/ladrillovacio.jpg");
+    background-repeat: repeat;       /* Ajusta la imagen para cubrir */
+    background-position: center;  /* Centra la textura */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.cuadrotexto2 {
+  width: 500px;
+  border: 5px solid #3D7D42;             /* Ajusta el ancho de tu caja */
+  background-color: rgba(255,241,0,0.2); /* Ejemplo de fondo */
+  padding: 10px;
+    display: flex;
+  flex-direction: column;
+}
+
+.YELLOW{
+  color: yellow;
+}
+.elvacio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.CHARA{
+  width: 800px;
+  border: 5px solid #FF3000;             /* Ajusta el ancho de tu caja */
+  background-color: rgba(26,36,26,0.2); /* Ejemplo de fondo */
+  padding: 10px;
+    display: flex;
+  flex-direction: column;
+}
+
+.contenedor-opciones {
+  display: flex;               /* Activa flexbox */
+  justify-content: center;     /* Centra horizontalmente */
+  align-items: center;         /* Centra verticalmente */
+  gap: 40px;                   /* Espacio entre las dos opciones */
+  min-height: 100vh;           /* Ocupa toda la pantalla */
+}
+.opcion {
+  width: auto;                /* Tamaño de cada opción */
+  height: auto;
+  display: flex;
+  justify-content: center;     /* Centra el texto dentro */
+  align-items: center;
+  border: 3px solid #FF3000;   /* Borde llamativo */
+  border-radius: 8px;
+  background-color: rgba(255,255,255,0.1); /* Fondo semitransparente */
+  cursor: pointer;             /* Cambia el cursor al pasar */
+  transition: transform 0.2s;  /* Animación suave */
+}
+.opcion:hover {
+  transform: scale(1.1);       /* Efecto al pasar el mouse */
+}
+.sinmundo{
+  border-top: 10px solid #ffffff;
+  border-bottom: 10px solid #ffffff;
+}
+.boton-imagen {
+  display: flex;
+  flex-direction: column;   /* Imagen arriba, texto abajo */
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  border: 3px solid #FF3000;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: rgba(255,255,255,0.1);
+  cursor: pointer;
+}
+.imagen-boton {
+  width: 120px;
+  height: auto;
+}
+
+.boton-imagen:hover .imagen-boton {
+  content: url("./IMAGE/snow.gif"); 
+}
