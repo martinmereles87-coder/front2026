@@ -21,11 +21,19 @@ header {
 }
 
 .titulo-principal {
-    color: #D43939;
-    font-size: 25px;
-    margin: 0;
-    display: flex;
-    justify-content: center;
+  color: #D43939;
+  font-size: 25px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center; /* asegura que se centre en móviles */
+  flex-wrap: wrap;    /* permite que el texto se parta en varias líneas */
+}
+
+@media (max-width: 600px) {
+  .titulo-principal {
+    font-size: 16px;   /* reduce el tamaño en móviles */
+  }
 }
 h3{
   color: #F77E63;
@@ -63,14 +71,12 @@ border-radius: 8px;
   color: #FF3000;
 }
 .nospoiler{
-  display: flex;
   background-color: #000;
     background-image: url("./IMAGE/spoiler.png");
     background-repeat: no-repeat;
-  background-size: cover;   /* ajusta para cubrir toda la pantalla */
+  background-size: contain;   /* ajusta para cubrir toda la pantalla */
   background-position: center;
-    align-content: center;
-
+  min-height: 100vh;
 }
 
 .bloque2 {
@@ -154,5 +160,5 @@ border-radius: 8px;
 }
 
 .boton-imagen:hover .imagen-boton {
-  content: url("./IMAGE/snow.gif"); 
+  content: url("./IMAGE/snow.gif");
 }
