@@ -11,8 +11,30 @@
 <body>
 <header>
   <div class="titulo-principal">
-    <h1>UNDERTALE(GENOCIDA)</h1>
+    <h1>UNDERTALE</h1>
+    <h1>(GENOCIDA)</h1>
   </div>
+      <div class="modal-body">
+        <input type="text" id="inputSecreto" class="form-control" placeholder="contraseña plis">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" onclick="verificarSecreto()">introducir</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+function verificarSecreto() {
+  let respuesta = document.getElementById("inputSecreto").value;
+  if (respuesta === "13213123122565642") {
+    // Redirige a un link externo
+    window.location.href = "https://drive.google.com/file/d/1AjKAuG8i1bwlb6TugpWPqgDhiMXdZBCW/view?usp=drivesdk";
+  } else {
+    alert("Contraseña incorrecta. Sigue buscando...");
+  }
+}
+</script>
 </header>
 <h3>LO PRIMERO</h3>
 <section class="bloque1">
@@ -67,7 +89,7 @@
                       </div>
                       <br>
                       <div class="opcion opcion2">
-                      <p>Si elegimos <span class="YELLOW">NO BORRAR</span> ella dira <strong class="genocidapro">"No...?" "Hmm..." "Que curioso." "Me entendiste mal." "¿DESDE CUANDO FUISTE VOS EL QUE TENIA EL CONTROL?"</strong>, nos da un jumpscare ruidoso y procede a hacer el mismo ataque destroza mundos con muchos nueves.</p>
+                      <p>Si elegimos <span class="YELLOW">NO BORRAR</span> ella dira <strong class="genocidapro">"No...?" "Hmm..." "Que curioso." "Me entendiste mal." "¿DESDE CUANDO FUISTE VOS EL QUE TENIA EL CONTROL?"</strong>, nos da un jumpscare ruidoso y procede a hacer el mismo ataque destroza mundos.</p>
                      <br>
                    </div>
                      </section>
@@ -79,9 +101,12 @@
                   <div class="sinmundo">
                     <p>Despues de abrir de vuelta al juego no veremos nada y solo escucharemos un viento soplar.Luego de esperar aproximadamente 10 minutos CHARA volvera a hablarnos un poco y nos terminara ofrecreciendo un trato para traer de vuelta el mundo destruido, en el trato ella nos pide algo que ella quiere, y eso es el <strong class="genocidapro">alma</strong> del protagonista.Si elegimos que si ella cerrara el juego, pero si abrimos de vuelta todo estara de vuelta a la normalidad.Pero si elegimos que no ella nos dejara en el vacio y tendremos que cerrar, abrir de vuelta y esperar 10 minutos por el trato otra vez para esta vez si aceptarlo.</p>
                  </div>
-                 <a href="https://tuenlace.com" class="boton-imagen">
+                 <br>
+                 <a href="WEIRD ROUTE.html" class="boton-imagen">
                  <img src="./IMAGE/noelleidle.gif" alt="noelle" class="imagen-boton">
-                 <span>SNOWGRAVE</span>
+                 <span>el camino prohibido creado con magia helada (
+                   ruta rara Deltarune
+                   )</span>
 </a>
 </body>
 </HTML>

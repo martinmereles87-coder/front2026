@@ -78,6 +78,11 @@ border-radius: 8px;
   background-position: center;
   min-height: 100vh;
 }
+@media (max-width: 600px) {
+  .nospoiler {
+    background-size: contain; /* en móviles se ajusta completa */
+  }
+}
 
 .bloque2 {
   background-color: #000;
@@ -120,7 +125,7 @@ border-radius: 8px;
   display: flex;               /* Activa flexbox */
   justify-content: center;     /* Centra horizontalmente */
   align-items: center;         /* Centra verticalmente */
-  gap: 40px;                   /* Espacio entre las dos opciones */
+  gap: 20px;                   /* Espacio entre las dos opciones */
   min-height: 100vh;           /* Ocupa toda la pantalla */
 }
 .opcion {
@@ -132,33 +137,37 @@ border-radius: 8px;
   border: 3px solid #FF3000;   /* Borde llamativo */
   border-radius: 8px;
   background-color: rgba(255,255,255,0.1); /* Fondo semitransparente */
-  cursor: pointer;             /* Cambia el cursor al pasar */
-  transition: transform 0.2s;  /* Animación suave */
 }
-.opcion:hover {
-  transform: scale(1.1);       /* Efecto al pasar el mouse */
-}
+
 .sinmundo{
   border-top: 10px solid #ffffff;
   border-bottom: 10px solid #ffffff;
+  padding-bottom: 20px;
 }
 .boton-imagen {
-  display: flex;
-  flex-direction: column;   /* Imagen arriba, texto abajo */
+  display: inline-flex;        /* se comporta como inline pero con flex */
+  flex-direction: column;
+       /* imagen arriba, texto abajo */
   align-items: center;
   text-decoration: none;
   color: #fff;
-  border: 3px solid #FF3000;
-  border-radius: 8px;
-  padding: 10px;
-  background-color: rgba(255,255,255,0.1);
+  border: 2px solid #81E8F0;
+  border-radius: 6px;
+  padding: 5px;
+  background-color: rgba(45,211,227,0.1);
   cursor: pointer;
+  width: auto;                 /* se ajusta al contenido */
 }
 .imagen-boton {
-  width: 120px;
-  height: auto;
+  width: 60px;
+  height: 60px;
 }
 
 .boton-imagen:hover .imagen-boton {
   content: url("./IMAGE/snow.gif");
+}
+.boton-imagen span{
+color: #8FCDD9;
+margin-top: 5px;
+font-size: 12px;
 }

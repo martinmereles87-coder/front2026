@@ -1,0 +1,217 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Tiny5&display=swap');
+</style>
+.press-start-2p-regular {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Press Start 2P', monospace; /* <-- Tipografía estilo Undertale/Deltarune */
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+}
+header {
+     border-bottom: 10px solid #ffffff;
+     background-image: url("./IMAGE/hielo.png");
+}
+.boton-volver {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 12px;
+  background-color: #222;
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 10px; /* espacio entre el botón y el título */
+}
+
+.boton-volver:hover {
+  background-color: #555;
+}
+.titulo-principal {
+  color: #DEE2FF;
+  font-size: 30px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center; /* asegura que se centre en móviles */
+  flex-wrap: wrap;    /* permite que el texto se parta en varias líneas */
+}
+.sub-titulo-principal {
+  color: #84E2F5;
+  font-size: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center; /* asegura que se centre en móviles */
+  flex-wrap: wrap;    /* permite que el texto se parta en varias líneas */
+
+}
+.Tennas{
+  display: flex;
+    justify-content: space-between; /* uno a la izquierda y otro a la derecha */
+    margin-top: 10px;
+}
+
+.bloque1 {
+  background-color: #000;
+    background-image: url("./IMAGE/arboles.png");
+    background-repeat: repeat;
+    display: flex;               /* Activa flexbox */
+    justify-content: center;     /* Centra horizontalmente */
+    align-items: center;         /* Centra verticalmente */
+    min-height: 100vh;           /* Ocupa toda la altura de la pantalla */
+    border-bottom: 5px solid #F7602B
+}
+.cuadradotexto1{
+display: flex;
+border: 5px solid #766A3A;
+border-radius: 8px;
+  width: 400px;               /* Ajusta el ancho de tu caja */
+  background-color: rgba(187, 173, 78,1); /* Ejemplo de fondo */
+  padding: 20px;
+  text-align: center;
+  flex-direction: column;
+}
+h2 {
+   color: yellow
+}
+.bloque2{
+  background-color: #000;
+    background-image: url("./IMAGE/barrotes.png");
+    background-repeat: repeat;
+    display: flex;               /* Activa flexbox */
+    justify-content: center;     /* Centra horizontalmente */
+    align-items: center;         /* Centra verticalmente */
+    min-height: 100vh;           /* Ocupa toda la altura de la pantalla */
+    border-top: 5px solid #285545;
+    border-bottom: 5px solid #285545
+}
+.contenedor-bloque2 {
+  display: flex;
+  flex-direction: column; /* coloca los elementos uno debajo del otro */
+  align-items: center;    /* centra horizontalmente */
+}
+.cartel {
+  width: 300px;           /* ajusta el tamaño del cartel */
+  margin-bottom: 15px;    /* espacio entre el cartel y el cuadro de texto */
+  }
+  .LONG {
+    width: 400px;           /* ajusta el tamaño del cartel */
+    margin-bottom: 15px;
+    height: 80px   /* espacio entre el cartel y el cuadro de texto */
+    }
+.cuadradotexto2{
+display: flex;
+border: 5px solid #0E2538;
+border-radius: 8px;
+  width: 400px;               /* Ajusta el ancho de tu caja */
+  background-color: rgba(0, 74, 106,1); /* Ejemplo de fondo */
+  padding: 20px;
+  text-align: center;
+  flex-direction: column;
+}
+.bloque3{
+  background-color: #000;
+    background-image: url("./IMAGE/estrella.gif");
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border-top: 5px solid #D63791;
+    border-bottom: 5px solid #D63791
+}
+.cuadradotexto3{
+display: flex;
+border: 5px solid #FAFF67;
+border-radius: 8px;
+  width: 400px;               /* Ajusta el ancho de tu caja */
+  background-color: rgba(202, 8, 81,1); /* Ejemplo de fondo */
+  padding: 20px;
+  text-align: center;
+  flex-direction: column;
+}
+.bloque4{
+  background-color: #000;
+    background-image: url("./IMAGE/boocgud.png");
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border-top: 5px solid #1F1739;
+    border-bottom: 5px solid #1F1739
+}
+.cuadradotexto4{
+display: flex;
+border: 5px solid #37828D;
+border-radius: 8px;
+  width: 400px;               /* Ajusta el ancho de tu caja */
+  background-color: rgba(4, 0, 128,1); /* Ejemplo de fondo */
+  padding: 20px;
+  text-align: center;
+  flex-direction: column;
+}
+.bloque5{
+  background-color: #000;
+    background-image: url("./IMAGE/PROCEED.jpg");
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    border-top: 5px solid #1F1739;
+    border-bottom: 5px solid #1F1739
+}
+.cuadradotexto5{
+display: flex;
+border: 5px solid #956400;
+border-radius: 8px;
+  width: 400px;               /* Ajusta el ancho de tu caja */
+  background-color: rgba(149, 100, 0,1); /* Ejemplo de fondo */
+  padding: 20px;
+  text-align: center;
+  flex-direction: column;
+}
+.solohojas{
+  background-color: #986500
+}
+
+.imagenesextras{
+  display: flex;
+  justify-content: space-between;
+}
+.boton-img {
+  background-color: #986500;
+  color: #986500;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  }
+  .boton-img:hover {
+  background-image: url("./IMAGE/Aquasaludo.gif"); /* imagen cualquiera */
+  background-size: cover;
+  color: transparent; /* oculta el texto del botón */
+}
+.sas{
+  color: #986500;
+  background-color: #986500;
+  transition: color 10s;
+  user-select: none;
+  pointer-events: none;
+}
+.sas:hover{
+  color: #FF0000;
+  }
+  .mediacentrada{
+  display: block;
+  margin: 0 auto; /* centra la imagen horizontalmente */
+  max-width: 80%; /* opcional: ajusta tamaño */
+  }
